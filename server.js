@@ -14,7 +14,7 @@ app.use(express.json()); // Para parsear o corpo das requisições JSON
 // Configuração da API Gemini
 // Substitua '' pela sua chave de API se não estiver no ambiente Canvas.
 // No ambiente Canvas, a chave é injetada automaticamente, então deixe como está.
-const API_KEY = process.env.API_KEY;
+const API_KEY = "AIzaSyDYv-rAyQqtnpMMzgNFfGxNZ1zNXcsO1oM";
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
